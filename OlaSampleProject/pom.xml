@@ -4,4 +4,22 @@
   <artifactId>OlaSampleProject</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>OlaSampleProject</name>
+  
+  <dependencies>
+		<dependency>
+			<groupId>io.appium</groupId>
+			<artifactId>java-client</artifactId>
+			<version>4.1.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.14.3</version>
+		</dependency>
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>3.1.5</version>
+		</dependency>
+	</dependencies>
 </project>
